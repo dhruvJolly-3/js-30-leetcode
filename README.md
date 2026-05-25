@@ -17,7 +17,7 @@
 | 07 | [Array Reduce Transformation](https://leetcode.com/problems/array-reduce-transformation/) | Easy | Array / HOF | ✅ |
 | 08 | [Function Composition](https://leetcode.com/problems/function-composition/) | Easy | Closures / HOF | ✅ |
 | 09 | [Return Length of Arguments Passed](https://leetcode.com/problems/return-length-of-arguments-passed/) | Easy | Rest Operator | ✅ |
-| 10 | - | - | - | ⏳ |
+| 10 | [Allow One Function Call](https://leetcode.com/problems/allow-one-function-call/) | Easy | Closures | ✅ |
 | 11 | - | - | - | ⏳ |
 | 12 | - | - | - | ⏳ |
 | 13 | - | - | - | ⏳ |
