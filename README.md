@@ -15,7 +15,7 @@
 | 05 | [Apply Transform Over Each Element in Array](https://leetcode.com/problems/apply-transform-over-each-element-in-array/) | Easy | Array / HOF | ✅ |
 | 06 | [Filter Elements from Array](https://leetcode.com/problems/filter-elements-from-array/) | Easy | Array / HOF | ✅ |
 | 07 | [Array Reduce Transformation](https://leetcode.com/problems/array-reduce-transformation/) | Easy | Array / HOF | ✅ |
-| 08 | - | - | - | ⏳ |
+| 08 | [Function Composition](https://leetcode.com/problems/function-composition/) | Easy | Closures / HOF | ✅ |
 | 09 | - | - | - | ⏳ |
 | 10 | - | - | - | ⏳ |
 | 11 | - | - | - | ⏳ |
