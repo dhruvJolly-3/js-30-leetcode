@@ -1,28 +1,27 @@
-# Day 01 — Problem Name
+# Day 01 — Create Hello World Function
 
-**LeetCode Link:** https://leetcode.com/problems/
+**LeetCode Link:** https://leetcode.com/problems/create-hello-world-function/
 
-**Difficulty:** Easy / Medium / Hard
+**Difficulty:** Easy
 
-**Topic:** Arrays / Two Pointers / etc.
+**Topic:** Closures
 
 ---
 
 ## Problem Statement
 
-> Paste the problem statement here.
+> Write a function `createHelloWorld`. It should return a new function that always returns `"Hello World"`.
 
 ## Examples
 
 ```
-Input:
-Output:
+Input:  const f = createHelloWorld(); f()
+Output: "Hello World"
+
+Input:  const f = createHelloWorld(); f({}, null, 42)
+Output: "Hello World"
 ```
 
 ## Constraints
 
--
-
-## My Approach
-
-> Write your thought process before coding.
+- 0 <= args.length <= 10
