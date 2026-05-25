@@ -8,36 +8,36 @@
 
 | Day | Problem | Difficulty | Topic | Status |
 |-----|---------|------------|-------|--------|
-| 01  | -       | -          | -     | ⏳     |
-| 02  | -       | -          | -     | ⏳     |
-| 03  | -       | -          | -     | ⏳     |
-| 04  | -       | -          | -     | ⏳     |
-| 05  | -       | -          | -     | ⏳     |
-| 06  | -       | -          | -     | ⏳     |
-| 07  | -       | -          | -     | ⏳     |
-| 08  | -       | -          | -     | ⏳     |
-| 09  | -       | -          | -     | ⏳     |
-| 10  | -       | -          | -     | ⏳     |
-| 11  | -       | -          | -     | ⏳     |
-| 12  | -       | -          | -     | ⏳     |
-| 13  | -       | -          | -     | ⏳     |
-| 14  | -       | -          | -     | ⏳     |
-| 15  | -       | -          | -     | ⏳     |
-| 16  | -       | -          | -     | ⏳     |
-| 17  | -       | -          | -     | ⏳     |
-| 18  | -       | -          | -     | ⏳     |
-| 19  | -       | -          | -     | ⏳     |
-| 20  | -       | -          | -     | ⏳     |
-| 21  | -       | -          | -     | ⏳     |
-| 22  | -       | -          | -     | ⏳     |
-| 23  | -       | -          | -     | ⏳     |
-| 24  | -       | -          | -     | ⏳     |
-| 25  | -       | -          | -     | ⏳     |
-| 26  | -       | -          | -     | ⏳     |
-| 27  | -       | -          | -     | ⏳     |
-| 28  | -       | -          | -     | ⏳     |
-| 29  | -       | -          | -     | ⏳     |
-| 30  | -       | -          | -     | ⏳     |
+| 01 | [Create Hello World Function](https://leetcode.com/problems/create-hello-world-function/) | Easy | Closures | ✅ |
+| 02 | [Counter](https://leetcode.com/problems/counter/) | Easy | Closures | ✅ |
+| 03 | [To Be Or Not To Be](https://leetcode.com/problems/to-be-or-not-to-be/) | Easy | Closures / Objects | ✅ |
+| 04 | [Counter II](https://leetcode.com/problems/counter-ii/) | Easy | Closures / Objects | ✅ |
+| 05 | [Apply Transform Over Each Element in Array](https://leetcode.com/problems/apply-transform-over-each-element-in-array/) | Easy | Array / HOF | ✅ |
+| 06 | [Filter Elements from Array](https://leetcode.com/problems/filter-elements-from-array/) | Easy | Array / HOF | ✅ |
+| 07 | - | - | - | ⏳ |
+| 08 | - | - | - | ⏳ |
+| 09 | - | - | - | ⏳ |
+| 10 | - | - | - | ⏳ |
+| 11 | - | - | - | ⏳ |
+| 12 | - | - | - | ⏳ |
+| 13 | - | - | - | ⏳ |
+| 14 | - | - | - | ⏳ |
+| 15 | - | - | - | ⏳ |
+| 16 | - | - | - | ⏳ |
+| 17 | - | - | - | ⏳ |
+| 18 | - | - | - | ⏳ |
+| 19 | - | - | - | ⏳ |
+| 20 | - | - | - | ⏳ |
+| 21 | - | - | - | ⏳ |
+| 22 | - | - | - | ⏳ |
+| 23 | - | - | - | ⏳ |
+| 24 | - | - | - | ⏳ |
+| 25 | - | - | - | ⏳ |
+| 26 | - | - | - | ⏳ |
+| 27 | - | - | - | ⏳ |
+| 28 | - | - | - | ⏳ |
+| 29 | - | - | - | ⏳ |
+| 30 | - | - | - | ⏳ |
 
 **Status:** ✅ Solved | ⏳ Pending | 🔁 Revisit
 
@@ -58,6 +58,8 @@ notes/
 
 ## 🧠 Topics Covered
 
+- Closures
+- Higher Order Functions
 - Arrays & Hashing
 - Two Pointers
 - Sliding Window
