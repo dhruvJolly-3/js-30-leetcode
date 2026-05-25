@@ -16,7 +16,7 @@
 | 06 | [Filter Elements from Array](https://leetcode.com/problems/filter-elements-from-array/) | Easy | Array / HOF | ✅ |
 | 07 | [Array Reduce Transformation](https://leetcode.com/problems/array-reduce-transformation/) | Easy | Array / HOF | ✅ |
 | 08 | [Function Composition](https://leetcode.com/problems/function-composition/) | Easy | Closures / HOF | ✅ |
-| 09 | - | - | - | ⏳ |
+| 09 | [Return Length of Arguments Passed](https://leetcode.com/problems/return-length-of-arguments-passed/) | Easy | Rest Operator | ✅ |
 | 10 | - | - | - | ⏳ |
 | 11 | - | - | - | ⏳ |
 | 12 | - | - | - | ⏳ |
@@ -60,6 +60,7 @@ notes/
 
 - Closures
 - Higher Order Functions
+- Rest Operator
 - Arrays & Hashing
 - Two Pointers
 - Sliding Window
