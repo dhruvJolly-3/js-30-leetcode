@@ -1,23 +1,33 @@
 /**
- * Day 01 — Problem Name
- * LeetCode: https://leetcode.com/problems/
+ * Day 01 — Create Hello World Function
+ * LeetCode: https://leetcode.com/problems/create-hello-world-function/
  * Difficulty: Easy
- * Topic: Arrays
+ * Topic: Closures
  *
- * Approach:
- * - Describe your approach here
- *
- * Time Complexity: O(n)
+ * Time Complexity: O(1)
  * Space Complexity: O(1)
  */
 
-/**
- * @param {type} param
- * @return {type}
- */
-var solution = function(param) {
-  // your solution here
-};
+// ✅ My Original Solution
+function createHelloWorld() {
+    return function(args1, args2) {
+        return ("Hello World");
+    }
+}
 
-// Test cases
-console.log(solution()); // expected output
+// 💡 Improved Solution (handles any number of args using rest operator)
+function createHelloWorld() {
+    return function(...args) {
+        return "Hello World";
+    }
+}
+
+// 📝 Note:
+// Both solutions pass LeetCode, but ...args is more correct
+// because it handles 0 to N arguments generically.
+// args1, args2 is hardcoded — breaks if 3+ args are passed conceptually.
+
+// Test
+const f = createHelloWorld();
+console.log(f());           // "Hello World"
+console.log(f(1, 2, 3));   // "Hello World"
