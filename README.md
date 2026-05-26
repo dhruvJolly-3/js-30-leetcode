@@ -19,7 +19,7 @@
 | 09 | [Return Length of Arguments Passed](https://leetcode.com/problems/return-length-of-arguments-passed/) | Easy | Rest Operator | ✅ |
 | 10 | [Allow One Function Call](https://leetcode.com/problems/allow-one-function-call/) | Easy | Closures | ✅ |
 | 11 | [Memoize](https://leetcode.com/problems/memoize/) | Medium | Closures / Caching | ✅ |
-| 12 | - | - | - | ⏳ |
+| 12 | [Add Two Promises](https://leetcode.com/problems/add-two-promises/) | Easy | Promises / Async | ✅ |
 | 13 | - | - | - | ⏳ |
 | 14 | - | - | - | ⏳ |
 | 15 | - | - | - | ⏳ |
@@ -62,6 +62,7 @@ notes/
 - Higher Order Functions
 - Rest Operator
 - Caching / Memoization
+- Promises / Async
 - Arrays & Hashing
 - Two Pointers
 - Sliding Window
