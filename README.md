@@ -18,7 +18,7 @@
 | 08 | [Function Composition](https://leetcode.com/problems/function-composition/) | Easy | Closures / HOF | ✅ |
 | 09 | [Return Length of Arguments Passed](https://leetcode.com/problems/return-length-of-arguments-passed/) | Easy | Rest Operator | ✅ |
 | 10 | [Allow One Function Call](https://leetcode.com/problems/allow-one-function-call/) | Easy | Closures | ✅ |
-| 11 | - | - | - | ⏳ |
+| 11 | [Memoize](https://leetcode.com/problems/memoize/) | Medium | Closures / Caching | ✅ |
 | 12 | - | - | - | ⏳ |
 | 13 | - | - | - | ⏳ |
 | 14 | - | - | - | ⏳ |
@@ -61,6 +61,7 @@ notes/
 - Closures
 - Higher Order Functions
 - Rest Operator
+- Caching / Memoization
 - Arrays & Hashing
 - Two Pointers
 - Sliding Window
