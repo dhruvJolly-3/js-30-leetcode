@@ -5,7 +5,7 @@
  * Topic: Closures / Caching
  *
  * Approach:
- * - Use a cache object to store previously computed results
+ * - Use a cache to store previously computed results
  * - Key = args converted to string (eg: [2,2] → "2,2")
  * - If key exists in cache → return cached value (fn not called again)
  * - If key not in cache → call fn, store result, return result
@@ -14,7 +14,7 @@
  * Space Complexity: O(n) for cache storage
  */
 
-// ✅ My Solution
+// ✅ Solution 1 — Using Object
 function memoize(fn) {
     let cache = {};
     return function(...args) {
@@ -29,12 +29,26 @@ function memoize(fn) {
     }
 }
 
+// ✅ Solution 2 — Using Map
+function memoize(fn) {
+    let cache = new Map();
+    return function(...args) {
+        let key = args.toString();
+        if (cache.has(key)) {
+            return cache.get(key);
+        } else {
+            let result = fn(...args);
+            cache.set(key, result);
+            return result;
+        }
+    }
+}
+
 // 📝 Note:
-// args.toString() converts [2,2] → "2,2" — unique key for each input combo
-// "key in cache" checks if key EXISTS in object
-// result = fn(...args) — call fn first, THEN store in cache
-// cache[key] = result — store for future calls
-// This is exactly how memoization works in real apps (React useMemo, etc.)
+// Object  → cache[key], key in cache, cache[key] = val
+// Map     → cache.get(key), cache.has(key), cache.set(key, val)
+// Map is slightly better — designed for key-value storage, better performance
+// args.toString() still needed even with Map — arrays cant be used as keys directly!
 
 // Test
 const sum = (a, b) => a + b;
