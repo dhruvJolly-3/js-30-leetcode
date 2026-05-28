@@ -21,7 +21,7 @@
 | 11 | [Memoize](https://leetcode.com/problems/memoize/) | Medium | Closures / Caching | ✅ |
 | 12 | [Add Two Promises](https://leetcode.com/problems/add-two-promises/) | Easy | Promises / Async | ✅ |
 | 13 | [Sleep](https://leetcode.com/problems/sleep/) | Easy | Promises / setTimeout | ✅ |
-| 14 | - | - | - | ⏳ |
+| 14 | [Timeout Cancellation](https://leetcode.com/problems/timeout-cancellation/) | Easy | setTimeout / Closures | ✅ |
 | 15 | - | - | - | ⏳ |
 | 16 | - | - | - | ⏳ |
 | 17 | - | - | - | ⏳ |
@@ -63,6 +63,7 @@ notes/
 - Rest Operator
 - Caching / Memoization
 - Promises / Async
+- setTimeout / clearTimeout
 - Arrays & Hashing
 - Two Pointers
 - Sliding Window
