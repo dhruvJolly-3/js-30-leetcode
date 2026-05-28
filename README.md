@@ -20,7 +20,7 @@
 | 10 | [Allow One Function Call](https://leetcode.com/problems/allow-one-function-call/) | Easy | Closures | ✅ |
 | 11 | [Memoize](https://leetcode.com/problems/memoize/) | Medium | Closures / Caching | ✅ |
 | 12 | [Add Two Promises](https://leetcode.com/problems/add-two-promises/) | Easy | Promises / Async | ✅ |
-| 13 | - | - | - | ⏳ |
+| 13 | [Sleep](https://leetcode.com/problems/sleep/) | Easy | Promises / setTimeout | ✅ |
 | 14 | - | - | - | ⏳ |
 | 15 | - | - | - | ⏳ |
 | 16 | - | - | - | ⏳ |
